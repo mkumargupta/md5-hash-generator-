@@ -12,13 +12,16 @@
 		B7CF32C21910ECEE00DA7896 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CF32C11910ECEE00DA7896 /* UIKit.framework */; };
 		B7CF32C81910ECEE00DA7896 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7CF32C61910ECEE00DA7896 /* InfoPlist.strings */; };
 		B7CF32CA1910ECEE00DA7896 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CF32C91910ECEE00DA7896 /* main.m */; };
-		B7CF32CE1910ECEE00DA7896 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CF32CD1910ECEE00DA7896 /* AppDelegate.m */; };
 		B7CF32D01910ECEF00DA7896 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7CF32CF1910ECEF00DA7896 /* Images.xcassets */; };
 		B7CF32D71910ECEF00DA7896 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CF32D61910ECEF00DA7896 /* XCTest.framework */; };
 		B7CF32D81910ECEF00DA7896 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CF32BD1910ECEE00DA7896 /* Foundation.framework */; };
 		B7CF32D91910ECEF00DA7896 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CF32C11910ECEE00DA7896 /* UIKit.framework */; };
 		B7CF32E11910ECEF00DA7896 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7CF32DF1910ECEF00DA7896 /* InfoPlist.strings */; };
 		B7CF32E31910ECEF00DA7896 /* hash_generatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CF32E21910ECEF00DA7896 /* hash_generatorTests.m */; };
+		B7CF32F21910ED0300DA7896 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CF32ED1910ED0300DA7896 /* AppDelegate.m */; };
+		B7CF32F31910ED0300DA7896 /* test1.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CF32EF1910ED0300DA7896 /* test1.m */; };
+		B7CF32F41910ED0300DA7896 /* test1.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7CF32F01910ED0300DA7896 /* test1.xib */; };
+		B7CF32F51910ED0300DA7896 /* login-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B7CF32F11910ED0300DA7896 /* login-bg@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,14 +43,18 @@
 		B7CF32C71910ECEE00DA7896 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B7CF32C91910ECEE00DA7896 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B7CF32CB1910ECEE00DA7896 /* hash_generator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hash_generator-Prefix.pch"; sourceTree = "<group>"; };
-		B7CF32CC1910ECEE00DA7896 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B7CF32CD1910ECEE00DA7896 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B7CF32CF1910ECEF00DA7896 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B7CF32D51910ECEF00DA7896 /* hash_generatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hash_generatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7CF32D61910ECEF00DA7896 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B7CF32DE1910ECEF00DA7896 /* hash_generatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hash_generatorTests-Info.plist"; sourceTree = "<group>"; };
 		B7CF32E01910ECEF00DA7896 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B7CF32E21910ECEF00DA7896 /* hash_generatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hash_generatorTests.m; sourceTree = "<group>"; };
+		B7CF32EC1910ED0300DA7896 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7CF32ED1910ED0300DA7896 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7CF32EE1910ED0300DA7896 /* test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test1.h; sourceTree = "<group>"; };
+		B7CF32EF1910ED0300DA7896 /* test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test1.m; sourceTree = "<group>"; };
+		B7CF32F01910ED0300DA7896 /* test1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = test1.xib; sourceTree = "<group>"; };
+		B7CF32F11910ED0300DA7896 /* login-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-bg@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +114,13 @@
 		B7CF32C31910ECEE00DA7896 /* hash_generator */ = {
 			isa = PBXGroup;
 			children = (
-				B7CF32CC1910ECEE00DA7896 /* AppDelegate.h */,
-				B7CF32CD1910ECEE00DA7896 /* AppDelegate.m */,
 				B7CF32CF1910ECEF00DA7896 /* Images.xcassets */,
+				B7CF32EC1910ED0300DA7896 /* AppDelegate.h */,
+				B7CF32ED1910ED0300DA7896 /* AppDelegate.m */,
+				B7CF32EE1910ED0300DA7896 /* test1.h */,
+				B7CF32EF1910ED0300DA7896 /* test1.m */,
+				B7CF32F01910ED0300DA7896 /* test1.xib */,
+				B7CF32F11910ED0300DA7896 /* login-bg@2x.png */,
 				B7CF32C41910ECEE00DA7896 /* Supporting Files */,
 			);
 			path = hash_generator;
@@ -221,6 +232,8 @@
 			files = (
 				B7CF32C81910ECEE00DA7896 /* InfoPlist.strings in Resources */,
 				B7CF32D01910ECEF00DA7896 /* Images.xcassets in Resources */,
+				B7CF32F41910ED0300DA7896 /* test1.xib in Resources */,
+				B7CF32F51910ED0300DA7896 /* login-bg@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +252,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7CF32CE1910ECEE00DA7896 /* AppDelegate.m in Sources */,
+				B7CF32F31910ED0300DA7896 /* test1.m in Sources */,
+				B7CF32F21910ED0300DA7896 /* AppDelegate.m in Sources */,
 				B7CF32CA1910ECEE00DA7896 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

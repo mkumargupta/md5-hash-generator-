@@ -1,19 +1,26 @@
 //
 //  AppDelegate.m
-//  hash_generator
+//  textview
 //
 //  Created by Saurabh Mishra on 4/30/14.
 //  Copyright (c) 2014 iquince. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "test1.h"
 
 @implementation AppDelegate
+
+@synthesize managedObjectContext = _managedObjectContext;
+@synthesize managedObjectModel = _managedObjectModel;
+@synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    test1 *obj=[[test1 alloc]initWithNibName:@"test1" bundle:nil];
+    [self.window setRootViewController:obj];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
@@ -43,7 +50,9 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    // Saves changes in the application's managed object context before the application terminates.
+    [self saveContext];
 }
+
 
 @end
