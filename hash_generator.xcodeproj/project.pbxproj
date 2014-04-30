@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7CF32BE1910ECEE00DA7896 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CF32BD1910ECEE00DA7896 /* Foundation.framework */; };
+		B7CF32C01910ECEE00DA7896 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CF32BF1910ECEE00DA7896 /* CoreGraphics.framework */; };
+		B7CF32C21910ECEE00DA7896 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CF32C11910ECEE00DA7896 /* UIKit.framework */; };
+		B7CF32C81910ECEE00DA7896 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7CF32C61910ECEE00DA7896 /* InfoPlist.strings */; };
+		B7CF32CA1910ECEE00DA7896 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CF32C91910ECEE00DA7896 /* main.m */; };
+		B7CF32CE1910ECEE00DA7896 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CF32CD1910ECEE00DA7896 /* AppDelegate.m */; };
+		B7CF32D01910ECEF00DA7896 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7CF32CF1910ECEF00DA7896 /* Images.xcassets */; };
+		B7CF32D71910ECEF00DA7896 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CF32D61910ECEF00DA7896 /* XCTest.framework */; };
+		B7CF32D81910ECEF00DA7896 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CF32BD1910ECEE00DA7896 /* Foundation.framework */; };
+		B7CF32D91910ECEF00DA7896 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CF32C11910ECEE00DA7896 /* UIKit.framework */; };
+		B7CF32E11910ECEF00DA7896 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7CF32DF1910ECEF00DA7896 /* InfoPlist.strings */; };
+		B7CF32E31910ECEF00DA7896 /* hash_generatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CF32E21910ECEF00DA7896 /* hash_generatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7CF32DA1910ECEF00DA7896 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7CF32B21910ECEE00DA7896 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7CF32B91910ECEE00DA7896;
+			remoteInfo = hash_generator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7CF32BA1910ECEE00DA7896 /* hash_generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hash_generator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7CF32BD1910ECEE00DA7896 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B7CF32BF1910ECEE00DA7896 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B7CF32C11910ECEE00DA7896 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B7CF32C51910ECEE00DA7896 /* hash_generator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hash_generator-Info.plist"; sourceTree = "<group>"; };
+		B7CF32C71910ECEE00DA7896 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B7CF32C91910ECEE00DA7896 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7CF32CB1910ECEE00DA7896 /* hash_generator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hash_generator-Prefix.pch"; sourceTree = "<group>"; };
+		B7CF32CC1910ECEE00DA7896 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7CF32CD1910ECEE00DA7896 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7CF32CF1910ECEF00DA7896 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B7CF32D51910ECEF00DA7896 /* hash_generatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hash_generatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7CF32D61910ECEF00DA7896 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B7CF32DE1910ECEF00DA7896 /* hash_generatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hash_generatorTests-Info.plist"; sourceTree = "<group>"; };
+		B7CF32E01910ECEF00DA7896 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B7CF32E21910ECEF00DA7896 /* hash_generatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hash_generatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7CF32B71910ECEE00DA7896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CF32C01910ECEE00DA7896 /* CoreGraphics.framework in Frameworks */,
+				B7CF32C21910ECEE00DA7896 /* UIKit.framework in Frameworks */,
+				B7CF32BE1910ECEE00DA7896 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7CF32D21910ECEF00DA7896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CF32D71910ECEF00DA7896 /* XCTest.framework in Frameworks */,
+				B7CF32D91910ECEF00DA7896 /* UIKit.framework in Frameworks */,
+				B7CF32D81910ECEF00DA7896 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7CF32B11910ECEE00DA7896 = {
+			isa = PBXGroup;
+			children = (
+				B7CF32C31910ECEE00DA7896 /* hash_generator */,
+				B7CF32DC1910ECEF00DA7896 /* hash_generatorTests */,
+				B7CF32BC1910ECEE00DA7896 /* Frameworks */,
+				B7CF32BB1910ECEE00DA7896 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7CF32BB1910ECEE00DA7896 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7CF32BA1910ECEE00DA7896 /* hash_generator.app */,
+				B7CF32D51910ECEF00DA7896 /* hash_generatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7CF32BC1910ECEE00DA7896 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7CF32BD1910ECEE00DA7896 /* Foundation.framework */,
+				B7CF32BF1910ECEE00DA7896 /* CoreGraphics.framework */,
+				B7CF32C11910ECEE00DA7896 /* UIKit.framework */,
+				B7CF32D61910ECEF00DA7896 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7CF32C31910ECEE00DA7896 /* hash_generator */ = {
+			isa = PBXGroup;
+			children = (
+				B7CF32CC1910ECEE00DA7896 /* AppDelegate.h */,
+				B7CF32CD1910ECEE00DA7896 /* AppDelegate.m */,
+				B7CF32CF1910ECEF00DA7896 /* Images.xcassets */,
+				B7CF32C41910ECEE00DA7896 /* Supporting Files */,
+			);
+			path = hash_generator;
+			sourceTree = "<group>";
+		};
+		B7CF32C41910ECEE00DA7896 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7CF32C51910ECEE00DA7896 /* hash_generator-Info.plist */,
+				B7CF32C61910ECEE00DA7896 /* InfoPlist.strings */,
+				B7CF32C91910ECEE00DA7896 /* main.m */,
+				B7CF32CB1910ECEE00DA7896 /* hash_generator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7CF32DC1910ECEF00DA7896 /* hash_generatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7CF32E21910ECEF00DA7896 /* hash_generatorTests.m */,
+				B7CF32DD1910ECEF00DA7896 /* Supporting Files */,
+			);
+			path = hash_generatorTests;
+			sourceTree = "<group>";
+		};
+		B7CF32DD1910ECEF00DA7896 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7CF32DE1910ECEF00DA7896 /* hash_generatorTests-Info.plist */,
+				B7CF32DF1910ECEF00DA7896 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7CF32B91910ECEE00DA7896 /* hash_generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7CF32E61910ECEF00DA7896 /* Build configuration list for PBXNativeTarget "hash_generator" */;
+			buildPhases = (
+				B7CF32B61910ECEE00DA7896 /* Sources */,
+				B7CF32B71910ECEE00DA7896 /* Frameworks */,
+				B7CF32B81910ECEE00DA7896 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hash_generator;
+			productName = hash_generator;
+			productReference = B7CF32BA1910ECEE00DA7896 /* hash_generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7CF32D41910ECEF00DA7896 /* hash_generatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7CF32E91910ECEF00DA7896 /* Build configuration list for PBXNativeTarget "hash_generatorTests" */;
+			buildPhases = (
+				B7CF32D11910ECEF00DA7896 /* Sources */,
+				B7CF32D21910ECEF00DA7896 /* Frameworks */,
+				B7CF32D31910ECEF00DA7896 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7CF32DB1910ECEF00DA7896 /* PBXTargetDependency */,
+			);
+			name = hash_generatorTests;
+			productName = hash_generatorTests;
+			productReference = B7CF32D51910ECEF00DA7896 /* hash_generatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7CF32B21910ECEE00DA7896 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = iquince;
+				TargetAttributes = {
+					B7CF32D41910ECEF00DA7896 = {
+						TestTargetID = B7CF32B91910ECEE00DA7896;
+					};
+				};
+			};
+			buildConfigurationList = B7CF32B51910ECEE00DA7896 /* Build configuration list for PBXProject "hash_generator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B7CF32B11910ECEE00DA7896;
+			productRefGroup = B7CF32BB1910ECEE00DA7896 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7CF32B91910ECEE00DA7896 /* hash_generator */,
+				B7CF32D41910ECEF00DA7896 /* hash_generatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7CF32B81910ECEE00DA7896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CF32C81910ECEE00DA7896 /* InfoPlist.strings in Resources */,
+				B7CF32D01910ECEF00DA7896 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7CF32D31910ECEF00DA7896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CF32E11910ECEF00DA7896 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7CF32B61910ECEE00DA7896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CF32CE1910ECEE00DA7896 /* AppDelegate.m in Sources */,
+				B7CF32CA1910ECEE00DA7896 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7CF32D11910ECEF00DA7896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CF32E31910ECEF00DA7896 /* hash_generatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7CF32DB1910ECEF00DA7896 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7CF32B91910ECEE00DA7896 /* hash_generator */;
+			targetProxy = B7CF32DA1910ECEF00DA7896 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7CF32C61910ECEE00DA7896 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7CF32C71910ECEE00DA7896 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B7CF32DF1910ECEF00DA7896 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7CF32E01910ECEF00DA7896 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7CF32E41910ECEF00DA7896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B7CF32E51910ECEF00DA7896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7CF32E71910ECEF00DA7896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hash_generator/hash_generator-Prefix.pch";
+				INFOPLIST_FILE = "hash_generator/hash_generator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B7CF32E81910ECEF00DA7896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hash_generator/hash_generator-Prefix.pch";
+				INFOPLIST_FILE = "hash_generator/hash_generator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B7CF32EA1910ECEF00DA7896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/hash_generator.app/hash_generator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hash_generator/hash_generator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "hash_generatorTests/hash_generatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B7CF32EB1910ECEF00DA7896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/hash_generator.app/hash_generator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hash_generator/hash_generator-Prefix.pch";
+				INFOPLIST_FILE = "hash_generatorTests/hash_generatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7CF32B51910ECEE00DA7896 /* Build configuration list for PBXProject "hash_generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7CF32E41910ECEF00DA7896 /* Debug */,
+				B7CF32E51910ECEF00DA7896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7CF32E61910ECEF00DA7896 /* Build configuration list for PBXNativeTarget "hash_generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7CF32E71910ECEF00DA7896 /* Debug */,
+				B7CF32E81910ECEF00DA7896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B7CF32E91910ECEF00DA7896 /* Build configuration list for PBXNativeTarget "hash_generatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7CF32EA1910ECEF00DA7896 /* Debug */,
+				B7CF32EB1910ECEF00DA7896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7CF32B21910ECEE00DA7896 /* Project object */;
+}
